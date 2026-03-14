@@ -1,6 +1,7 @@
 ## Vocabulary in Cloud Computing
 
-* Virtulization
+## Virtulization
+
 In simple terms Virtulization is the process of creating a virtual version of something such as an operating system, server, storage or network resources.
 
 Virtualization is the technology that allows multiple virtual resources (servers, storage, networks, operating systems) to run on a single physical machine.
@@ -15,7 +16,8 @@ Example technologies:
 - Why it matters in cloud:
 Cloud providers like Amazon Web Services rely heavily on virtualization to create thousands of virtual servers from physical hardware.
 
-* Virtual Machine
+## Virtual Machine
+
 A Virtual-Machine (VM) is a software-based emulation of a physical computer. It allows running multiple operating systems on a single physical machine.
 
 A Virtual Machine (VM) is a software-based computer that runs an operating system and applications just like a physical computer.
@@ -31,7 +33,8 @@ on the same physical machine.
 Example cloud service:
 Amazon EC2 provides virtual machines in the cloud.
 
-* API (Application Programning Interface)
+## API (Application Programning Interface)
+
 API is a set of rules and protocol that allows a different software applications to communicate each other. It define how software components should interact.
 
 An API is a set of rules that allows different software applications to communicate with each other.
@@ -46,7 +49,8 @@ Example tools that interact with APIs:
 - Postman
 - cURL
 
-* Regions
+## Regions
+
 Regions in cloud computing refers to geograpic locations where cloud providers have data centers. Each region contains multiple data centers.
 
 A Region is a geographical area where a cloud provider operates multiple data centers.
@@ -62,7 +66,8 @@ Regions help with:
 - disaster recovery
 
 
-* Availability Zones
+## Availability Zones
+
 Availability Zones are isolated locations within a region that have their own power, cooling and networking. They are designed to provide high availability and fault tolarance.
 
 An Availability Zone is an isolated data center within a region.
@@ -82,7 +87,8 @@ AWS Mumbai Region:
 
 Applications can run across multiple AZs to avoid downtime.
 
-* Scalability
+## Scalability
+
 Scalability is the ability of a system to handle increasing workloads by adding resources.
 
 Two types:
@@ -98,7 +104,8 @@ Example:
 1 server → 10 servers.
 Horizontal scaling is more common in cloud systems.
 
-* Elasticity
+## Elasticity
+
 Elasticity is the ability to automatically increase or decrease resources based on demand.
 
 Example:
@@ -111,7 +118,8 @@ After the sale:
 Example service:
 - Amazon EC2 Auto Scaling
 
-* Agility
+## Agility
+
 Agility is the capability of quickly and easily adapting to changes. In the context of cloud computing , it involves the rapid deployment of resources and applications.
 Agility in cloud computing means the ability to rapidly deploy and configure resources.
 
@@ -120,7 +128,8 @@ Instead of waiting weeks for hardware:
 You can create a server in minutes using
 Amazon Web Services.
 
-* High Availability
+## High Availability
+
 High Availability ensures that systems remain operational for a very high percentage of time.
 
 Typical uptime targets:
@@ -132,7 +141,8 @@ multiple servers
 multiple availability zones
 load balancing
 
-* Fault Tolerance
+## Fault Tolerance
+
 Fault Tolerance is the ability of a system to continue operating even if one or more components fail.
 
 Example:
@@ -140,7 +150,8 @@ If one server crashes:
     - another server immediately takes over.
 Fault tolerance often uses redundant infrastructure.
 
-* Disaster Recovery
+## Disaster Recovery
+
 Disaster Recovery (DR) is the planning and processes for restoring and recovering data and systems after a natural or human-induced disaster.
 
 Disaster Recovery is a strategy to restore systems and data after major failures such as:
@@ -158,7 +169,8 @@ Example:
 Replication between two regions in
 Amazon Web Services.
 
-* Load Balancing
+## Load Balancing
+
 Load Balancing distributes incoming traffic across multiple servers to prevent any single server from becoming overloaded.
 
 Benefits:
